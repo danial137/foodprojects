@@ -10,4 +10,7 @@ const HomePage = () => {
 
 export default HomePage
 
-// local host 3000
+// localhost:3000
+// localhost:3000/about
+// localhost:3000/about/service
+// localhost:3000/about/service/1
