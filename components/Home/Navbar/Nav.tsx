@@ -48,11 +48,11 @@ const Nav = ({openNav}:props) => {
                 {/* button */}
                 <div className='flex items-center space-x-4'>
                     {/* join now */}
-                    <button className='bg-blue-950 px-8 py-2.5 text-white font-bold rounded-lg hover:bg-black transition-all duration-300 cursor-pointer'> Join Now </button>
+                    <button className='bg-blue-950 dark:bg-white dark:text-black dark:hover:bg-gray-200 px-8 py-2.5 text-white font-bold rounded-lg hover:bg-black transition-all duration-300 cursor-pointer'> Join Now </button>
                     {/* {theme} */}
                     <ThemeToggler/>
                     {/* {menue} */}
-                    <HiBars3BottomRight onClick={openNav} className='w-8 h-8 cursor-pointer text-blue-950 lg:hidden' />
+                    <HiBars3BottomRight onClick={openNav} className='w-8 h-8 cursor-pointer text-blue-950 lg:hidden dark:text-white' />
                 </div>
             </div>
         </div>
