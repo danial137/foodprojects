@@ -26,6 +26,10 @@ const Restaurant = () => {
                 <div>
                     <RestaurantCard image="/images/r6.jpg" title="Chubby Noodle Chinese Takeout " />
                 </div>
+
+            </div>
+            <div className="mt-16 text-center">
+                <button className='px-9 py-2.5'>Discover More &rarr;</button>
             </div>
         </div>
     )
