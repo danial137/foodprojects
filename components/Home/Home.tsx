@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './Hero/Hero'
 import Restaurant from './Restaurant/Restaurant'
 import Category from './Category/Category'
+import HowItWork from './HowItWork/HowItWork'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <Restaurant />
       <Category />
+      <HowItWork />
     </div>
   )
 }
