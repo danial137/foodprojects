@@ -29,7 +29,7 @@ const Restaurant = () => {
 
             </div>
             <div className="mt-16 text-center">
-                <button className='px-9 py-2.5'>Discover More &rarr;</button>
+                <button className='px-9 py-2.5 sm:px-12 sm:py-3.5 cursor-pointer rounded-full font-bold text-base sm:text-lg bg-cyan-700 text-white dark:text-black hover:bg-cyan-950 transition-all duration-300 dark:bg-cyan-300 dark:hover:bg-cyan-200'>Discover More &rarr;</button>
             </div>
         </div>
     )
