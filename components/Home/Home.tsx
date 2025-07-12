@@ -8,6 +8,7 @@ import Feature from './Feature/Feature'
 import ClientReview from './ClientReview/ClientReview'
 import MobileApp from './MobileApp/MobileApp'
 
+
 const Home = () => {
   return (
     <div className='overflow-hidden'>
@@ -19,7 +20,8 @@ const Home = () => {
       <About />
       <Feature />
       <ClientReview />
-      <MobileApp/>
+      <MobileApp />
+      
     </div>
   )
 }
