@@ -6,6 +6,7 @@ import HowItWork from './HowItWork/HowItWork'
 import About from './About/About'
 import Feature from './Feature/Feature'
 import ClientReview from './ClientReview/ClientReview'
+import MobileApp from './MobileApp/MobileApp'
 
 const Home = () => {
   return (
@@ -17,7 +18,8 @@ const Home = () => {
       <HowItWork />
       <About />
       <Feature />
-      <ClientReview/>
+      <ClientReview />
+      <MobileApp/>
     </div>
   )
 }
