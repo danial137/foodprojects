@@ -76,13 +76,13 @@ const Footer = () => {
                 <h1 className=' text-center text-white text-base font-bold'>&copy; 2025 designed by [persian store]</h1>
                 <div className='flex items-center text-white space-x-4 mt-4 md:mt-0'>
                     <span> Social : </span>
-                    <span className='hover:gray-gray-500 text-white'>
+                    <span className='hover:text-gray-500 text-white'>
                         <FaFacebook/>
                     </span>
-                    <span className='hover:gray-gray-500 text-white'>
+                    <span className='hover:text-gray-500 text-white'>
                         <FaTwitter />
                     </span>
-                    <span className='hover:gray-gray-500 text-white'>
+                    <span className='hover:text-gray-500 text-white'>
                         <FaDribbble />
                     </span>
                 </div>
