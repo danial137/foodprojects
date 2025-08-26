@@ -8,22 +8,22 @@ const Restaurant = () => {
                 Available Restaurant Nearby Area
             </div>
             <div className='w-[80%] mx-auto grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 mt-14 '>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="400" data-aos-anchor-placement="top-center">
                     <RestaurantCard image="/images/r1.jpg" title="Pizza Hut Delicious Pizza " />
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="400" data-aos-anchor-placement="top-center">
                     <RestaurantCard image="/images/r2.jpg" title="Chipotle Mexican Grill (2675 Geary Boulevard) " />
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="400" data-aos-anchor-placement="top-center">
                     <RestaurantCard image="/images/r3.jpg" title="McDonald's® Burgers (Fillmore) " />
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="top-center">
                     <RestaurantCard image="/images/r4.jpg" title="The Baked Bear San Francisco " />
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="top-center">
                     <RestaurantCard image="/images/r5.jpg" title="Shake Shack (3060 Fillmore Street) " />
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="top-center">
                     <RestaurantCard image="/images/r6.jpg" title="Chubby Noodle Chinese Takeout " />
                 </div>
 
